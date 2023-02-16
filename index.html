@@ -9,7 +9,7 @@
   <style>
       #wrap {
         display: grid;
-        height: 60vh;
+        height: 100%;
         grid-template-columns: 1fr 5fr 1fr;
         grid-gap: 10px;
         grid-auto-rows: 20vh 55vh 25vh;
@@ -106,12 +106,14 @@
       #product-image{
         justify-content: center;
         align-items: center;
+        display: flex;
+        margin-top: 60vh;
       }
   </style>
   <script src="" defer></script>
 </head>
 <body onload="init()">
-    <div id="wrap">
+    <!-- <div id="wrap">
         <div id="calc-wrap">
             <div id="info">제품은 cm가 아닌 mm기준입니다. (10cm = 100mm)</div>
             <div id="calc-box">
@@ -143,7 +145,7 @@
             </div>
         </div>
         
-    </div>
+    </div> -->
     <div id="product-image">
         <img src="nothtest.jpeg"/>
     </div>
